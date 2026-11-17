@@ -1,0 +1,11 @@
+@DatPhongKhachSan_HostAddress = http://localhost:5229
+
+GET {{DatPhongKhachSan_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{DatPhongKhachSan_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
